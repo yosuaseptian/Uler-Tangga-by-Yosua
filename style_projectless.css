@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #canvas {
+    height: 600px;
+    width: 600px;
+    background-image: url(https://1.bp.blogspot.com/-exzWL9YxigM/WP7mCNuB8zI/AAAAAAAAFfc/BVPYEoau88c05NL96n1ehV8nSSFkdr_ugCLcB/s1600/ULAR.jpg);
+    background-size: cover;
+    margin: auto;
+  }
+  
+  .box {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid blue;
+    font-size: 36px;
+    text-align: center;
+    
+  }
+
+  div.dice{
+    float:left;
+    width:60px;
+    background:red;
+    border:#999 1px solid;
+    padding:10px;
+    font-size:24px;
+    text-align:center;
+    margin:5px;
+  }
+  
+  .player {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: auto;
+    background-color: whitesmoke;
+  }
+
+  /* .player1 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: auto;
+    background-color: darkblue;
+  } */
